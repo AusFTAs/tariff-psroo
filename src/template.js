@@ -8,11 +8,29 @@
 
 "use strict";
 
-const uglifyHS = require('./uglifyHS');
+const uglifyHS = require('pretty-print-hscode');
 
+/**
+ * Lightweight template system.
+ * 
+ * Added for the purpose of being able to automatically produce RoO questions with some dynamic content.
+ * 
+ * Variables supported are: 'subheading', 'heading', 'chapter', 'hscode' and custom.
+ * 
+ * Custom being anything specified in vars.
+ * 
+ * @param {string} str target string. e.g. '{{hscode}}'
+ * @param {string} vars template variables
+ * @return {string}
+ * 
+ * @example
+ * template('{{subheading}}', {hscode: '0101010101'})
+ * // will produce 'subheading 0101.01'
+ * 
+ */
 function template(str, vars)
 {
-  let candidates = str.match(/\{\{[^\}]+\}\}/g);
+  let candidates = str.match(/\{\{[^}]+\}\}/g);
   if (candidates)
   {
     candidates.forEach(candidate =>
@@ -25,27 +43,31 @@ function template(str, vars)
         if (vars.hscode)
         {
           value = uglifyHS(vars.hscode.replace(/[^0-9]/g, '')
-            .substr(0, 6));
+              .substr(0, 6), true)
+            .toLowerCase();
         }
         break;
       case 'heading':
         if (vars.hscode)
         {
           value = uglifyHS(vars.hscode.replace(/[^0-9]/g, '')
-            .substr(0, 4));
+              .substr(0, 4), true)
+            .toLowerCase();
         }
         break;
       case 'chapter':
         if (vars.hscode)
         {
           value = uglifyHS(vars.hscode.replace(/[^0-9]/g, '')
-            .substr(0, 2));
+              .substr(0, 2), true)
+            .toLowerCase();
         }
         break;
       case 'hscode':
         if (vars.hscode)
         {
-          value = uglifyHS(vars.hscode.replace(/[^0-9]/g, ''));
+          value = uglifyHS(vars.hscode.replace(/[^0-9]/g, ''), true)
+            .toLowerCase();
         }
         break;
       default:

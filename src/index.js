@@ -9,31 +9,118 @@
 "use strict";
 
 const grammar = require("./grammar");
-const uglifyHS = require('./uglifyHS');
+const uglifyHS = require('pretty-print-hscode');
 const template = require('./template');
 
+/**
+ * @typedef {object} ROO
+ * @property {string} type category|question|outcome
+ */
+
+/**
+ * @typedef {ROO} ROOCategory
+ * @property {string} itemIf id/code of item
+ * @property {string} label Category label
+ * @property {string} [details] details of category
+ */
+
+/**
+ * @typedef {ROO} ROOQuestion
+ * @property {string} itemIf id/code of item
+ * @property {string} parentCategory id/code of parent category
+ * @property {string} label Question label
+ * @property {string} [details] details of question
+ * @property {string} [itemIfText] expansion text of itemIf code
+ */
+
+/**
+ * @typedef {ROO} ROOOutcome
+ * @property {string} itemIf unclear|applicable|inapplicable
+ * @property {string} label Outcome label
+ * @property {string} [details] details of outcome
+ */
+
+/**
+ * Main class
+ */
 class PSR
 {
+  /**
+   * @param {object} tree PSR DSL parse tree
+   * @param {Array<ROO>} roo rules of origin questionnaire
+   * @param {object} vars template variables
+   * @param {object} vars.hscode HS code of psr
+   */
   constructor(tree, roo, vars)
   {
+    /**
+     * PSR DSL parse tree
+     * @type {object}
+     * @private
+     */
     this.tree = tree;
+    /**
+     * rules of origin questionnaire
+     * @type {Array<ROO>}
+     * @private
+     */
     this.roo = roo;
 
+    /**
+     * A string representation of PSR that is akin to input data.
+     * 
+     * Does not show implicit (silent) codes.
+     * 
+     * This might be suitable for display to general trade negotiators but is
+     * not suitable for display to general users.
+     * @type {string}
+     */
     this.official = formatOfficialHelper(this.tree);
 
     let codes = findAllCodesHelper(this.tree);
     let conditions = findAllConditionsHelper(codes);
     let labels = findAllLabelsHelper(codes);
     let details = findAllDetailsHelper(codes);
-    
+
     let categoryById = {};
     let questionById = {};
 
+    /**
+     * Friendly text expansion of codes used in DSL.
+     * 
+     * Derived from RoO template itemIfText
+     * @type {Map{string, string}}
+     * @private
+     */
     this.friendlyExpanded = {};
+    /**
+     * Mapping of question id to category id
+     * @type {Map{string, string}}
+     * @private
+     */
     this.friendlyGroupingException = {};
 
+    /**
+     * List of all categories.
+     * 
+     * You will want to iterate through this object to display categories and questions.
+     * 
+     * @type {Array<ROOCategory>}
+     */
     this.categories = [];
+    /**
+     * List of all questions that might potentially be asked.
+     * 
+     * @type {Array<ROOQuestion>}
+     * @private
+     */
     this.questions = [];
+    /**
+     * List of all all outcomes.
+     * 
+     * @type {Map<string, ROOOutcome>}
+     * @private
+     */
     this.outcomes = {};
 
     let that = this;
@@ -41,27 +128,29 @@ class PSR
     roo.forEach((item, index) =>
     {
       item.item = index;
-      switch (item.type)
+      if (item.type === 'category')
       {
-      case 'category':
         item.ruleFormattingStr = item.ruleFormattingStr || 'For {{hscode}}, the rule is {{friendlyRules}}.';
         item.conditionsExtraDetailsStr = item.conditionsExtraDetailsStr || 'The addition of "provided that" or "except from" in the rule creates additional parameters that must be followed for the product to qualify under this rule. Please follow closely the wording of the rule in selecting "yes" or "no" for this question.';
         item.details = item.details || '';
         item.questions = [];
         item.questionsById = {};
         that.categories.push(categoryById[item.itemIf] = item);
-        break;
-      case 'question':
-        const included = item.itemIf.split(',').filter(itm => codes[itm] !== undefined).length > 0;
+      }
+      else if (item.type === 'question')
+      {
+        const included = item.itemIf.split(',')
+          .filter(itm => codes[itm] !== undefined)
+          .length > 0;
         if (included)
         {
           that.questions.push(item);
 
           let category = categoryById[item.parentCategory];
-          
+
           category.questions.push(item);
           category.questionsById[item.itemIf] = item;
-          
+
           if (item.itemIf in labels)
           {
             item.label = labels[item.itemIf];
@@ -84,14 +173,14 @@ class PSR
           {
             item.details.push(details[item.itemIf]);
           }
-          
+
           let code = codes[item.itemIf];
-          
+
           vars.parameter = code.parameter || undefined;
-          
+
           item.label = template(item.label, vars);
           item.details = item.details.join('\n\n')
-          
+
           item.details = template(item.details.replace(/(^\s*|\s*$)/g, ''), vars);
         }
         if (item.parentCategory)
@@ -103,14 +192,15 @@ class PSR
           that.friendlyExpanded[item.itemIf] = item.itemIfText;
         }
         questionById[item.itemIf] = item;
-        break;
-      case 'outcome':
+      }
+      else if (item.type === 'outcome')
+      {
         that.outcomes[item.itemIf] = item;
-        break;
       }
     });
 
-    Object.keys(codes).filter(code => !(code in questionById))
+    Object.keys(codes)
+      .filter(code => !(code in questionById))
       .forEach(code =>
       {
         throw new Error(`Question related to ${code} does not exist.`);
@@ -125,30 +215,44 @@ class PSR
       if (vars.friendlyRules)
       {
         category.friendlyRules = vars.friendlyRules = template(vars.friendlyRules, vars);
-        category.details += (category.details? '\n\n' : '') + category.ruleFormattingStr;
+        category.details += (category.details ? '\n\n' : '') + category.ruleFormattingStr;
         category.details = template(category.details, vars);
       }
     });
     this.iterate();
   }
 
+  /**
+   * Dump DSL string from this representation.
+   * 
+   * Used for testing various aspects of serialisation.
+   * 
+   * @return {string}
+   */
   dump()
   {
     return dumpHelper(this.tree);
   }
 
+  /**
+   * Once you have some answers to questions, iterate with those answers to progress
+   * questionnaire.
+   * 
+   * @param {Map<string, boolean>} answers mapping of question code to answers. It should be true for answered yes, no for answered no and not present or undefined for unanswered.
+   * 
+   * @return {ROOOutcome}
+   */
   iterate(answers)
   {
-    var answers = answers ||
-    {};
+    answers = answers || {};
     var that = this;
 
     var blacklist = {};
     var values = {};
     var outcome = 'unclear';
-    for (var q = 0; q < this.questions.length && outcome == 'unclear'; q++)
+    for (var q1 = 0; q1 < this.questions.length && outcome == 'unclear'; q1++)
     {
-      this.questions[q].visible = false;
+      this.questions[q1].visible = false;
     }
     for (var q = 0; q < this.questions.length && outcome == 'unclear'; q++)
     {
@@ -182,9 +286,19 @@ class PSR
     return this.outcomes[outcome];
   }
 
-  static parse(text, roo = [], vars = {})
+  /**
+   * Constructs a PSR object.
+   * 
+   * Use this instead of using PSR object directly. It will maintain backward compatible interface with optional parameters.
+   * 
+   * @param {string} dslText ROO DSL text
+   * @param {Array<ROO>} [rooTemplate=[]] ROO questionnaire
+   * @param {object} [templateVariables={}] Template variables.
+   * @return {PSR}
+   */
+  static parse(dslText, rooTemplate = [], templateVariables = {})
   {
-    return new PSR(grammar.parse(text), JSON.parse(JSON.stringify(roo)), vars);
+    return new PSR(grammar.parse(dslText), JSON.parse(JSON.stringify(rooTemplate)), templateVariables);
   }
 }
 
@@ -198,11 +312,15 @@ function formatOfficialHelper(tree)
 
   if (tree.or)
   {
-    return tree.or.map(formatOfficialHelper).filter(i => i).join(' or ');
+    return tree.or.map(formatOfficialHelper)
+      .filter(i => i)
+      .join(' or ');
   }
   if (tree.and)
   {
-    return tree.and.map(formatOfficialHelper).filter(i => i).join(' or ');
+    return tree.and.map(formatOfficialHelper)
+      .filter(i => i)
+      .join(' or ');
   }
 
   if (tree.text)
@@ -264,10 +382,13 @@ function findAllCodesHelper(tree, output)
 function findAllLabelsHelper(codes)
 {
   let output = {};
-  Object.keys(codes).map(c => codes[c]).filter(tree => tree.label).forEach(tree =>
-  {
-    output[tree.code] = tree.label;
-  });
+  Object.keys(codes)
+    .map(c => codes[c])
+    .filter(tree => tree.label)
+    .forEach(tree =>
+    {
+      output[tree.code] = tree.label;
+    });
   return output;
 }
 
@@ -275,11 +396,14 @@ function findAllDetailsHelper(codes)
 {
   let output = {};
 
-  Object.keys(codes).map(c => codes[c]).filter(tree => tree.details).forEach(tree =>
-  {
-    output[tree.code] = output[tree.code] || [];
-    output[tree.code].push(tree.details);
-  });
+  Object.keys(codes)
+    .map(c => codes[c])
+    .filter(tree => tree.details)
+    .forEach(tree =>
+    {
+      output[tree.code] = output[tree.code] || [];
+      output[tree.code].push(tree.details);
+    });
 
   return output;
 }
@@ -287,25 +411,28 @@ function findAllDetailsHelper(codes)
 function findAllConditionsHelper(codes)
 {
   let output = {};
-  
-  Object.keys(codes).map(c => codes[c]).filter(tree => tree.except || tree.condition || tree.from).forEach(tree =>
-  {
-    let list = output[tree.code] || [];
-    if (tree.from)
+
+  Object.keys(codes)
+    .map(c => codes[c])
+    .filter(tree => tree.except || tree.condition || tree.from)
+    .forEach(tree =>
     {
-      list.push(`provided that it is a change from ${hslistToText(tree.from)}`);
-    }
-    if (tree.except)
-    {
-      list = list.concat(hslistToConditions(tree.except));
-    }
-    if (tree.condition)
-    {
-      tree.condition.forEach(cond => list.push(cond));
-    }
-    output[tree.code] = list
-  });
-  
+      let list = output[tree.code] || [];
+      if (tree.from)
+      {
+        list.push(`provided that it is a change from ${hslistToText(tree.from)}`);
+      }
+      if (tree.except)
+      {
+        list = list.concat(hslistToConditions(tree.except));
+      }
+      if (tree.condition)
+      {
+        tree.condition.forEach(cond => list.push(cond));
+      }
+      output[tree.code] = list
+    });
+
   return output;
 }
 
@@ -396,7 +523,7 @@ let dumpHelper = function (tree)
   {
     output += ` parameter '${tree.parameter}'`;
   }
-  
+
   if (tree.from)
   {
     output += ' from ' + hslistToEncoded(tree.from);
@@ -445,7 +572,7 @@ let dumpHelper = function (tree)
 };
 
 
-var friendlyHelper = function(tree, expanded, groups, category, settings, vars)
+var friendlyHelper = function (tree, expanded, groups, category, settings, vars)
 {
 
   if (tree.friendly && category in tree.friendly)
@@ -479,7 +606,7 @@ var friendlyHelper = function(tree, expanded, groups, category, settings, vars)
       return '';
     }
   }
-  
+
   if (tree.parameter)
   {
     vars.parameter = tree.parameter;
@@ -511,7 +638,7 @@ var friendlyHelper = function(tree, expanded, groups, category, settings, vars)
     {
       output += '(' + tree.parameter + ')';
     }
-    
+
     if (tree.from)
     {
       output += ' from ' + hslistToText(tree.from);
@@ -546,10 +673,11 @@ var friendlyHelper = function(tree, expanded, groups, category, settings, vars)
 
 function evaluateHelper(tree, values, blacklist, whitelist)
 {
+  let a, b;
   if (tree.or)
   {
-    var a = evaluateHelper(tree.or[0], values, blacklist, whitelist);
-    var b = evaluateHelper(tree.or[1], values, blacklist, whitelist);
+    a = evaluateHelper(tree.or[0], values, blacklist, whitelist);
+    b = evaluateHelper(tree.or[1], values, blacklist, whitelist);
     if (a === 'applicable' || b === 'applicable')
     {
       return 'applicable';
@@ -562,8 +690,8 @@ function evaluateHelper(tree, values, blacklist, whitelist)
   }
   if (tree.and)
   {
-    var a = evaluateHelper(tree.and[0], values, blacklist, whitelist);
-    var b = evaluateHelper(tree.and[1], values, blacklist, whitelist);
+    a = evaluateHelper(tree.and[0], values, blacklist, whitelist);
+    b = evaluateHelper(tree.and[1], values, blacklist, whitelist);
     if (a === 'applicable' && b === 'applicable')
     {
       return 'applicable';
@@ -572,43 +700,43 @@ function evaluateHelper(tree, values, blacklist, whitelist)
     {
       Object.keys(findAllCodesHelper(tree.and[1]))
         .forEach(code =>
-      {
-        if (!whitelist[code])
         {
-          blacklist[code] = !whitelist[code]
-        }
-      });
+          if (!whitelist[code])
+          {
+            blacklist[code] = !whitelist[code]
+          }
+        });
       return 'inapplicable';
     }
     else
     {
       Object.keys(findAllCodesHelper(tree))
         .forEach(code =>
-      {
-        delete blacklist[code]
-        whitelist[code] = true;
-      });
+        {
+          delete blacklist[code]
+          whitelist[code] = true;
+        });
     }
     if (b === 'inapplicable')
     {
       Object.keys(findAllCodesHelper(tree.and[0]))
         .forEach(code =>
-      {
-        if (!whitelist[code])
         {
-          blacklist[code] = true
-        }
-      });
+          if (!whitelist[code])
+          {
+            blacklist[code] = true
+          }
+        });
       return 'inapplicable';
     }
     else
     {
       Object.keys(findAllCodesHelper(tree))
         .forEach(code =>
-      {
-        delete blacklist[code]
-        whitelist[code] = true;
-      });
+        {
+          delete blacklist[code]
+          whitelist[code] = true;
+        });
     }
     return 'unclear';
   }

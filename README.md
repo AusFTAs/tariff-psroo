@@ -1,11 +1,20 @@
 # Tariffs PSR
 
+[![SCM](https://ausftas.github.io/tariff-psroo/coverage/public.svg)](https://github.com/ausftas/tariff-psroo)
+[![Build Status](https://travis-ci.org/ausftas/tariff-psroo.svg?branch=master)](https://travis-ci.org/ausftas/tariff-psroo)
+[![Documentation](https://ausftas.github.io/tariff-psroo/badge.svg)](https://ausftas.github.io/tariff-psroo/)
+[![Coverage](https://ausftas.github.io/tariff-psroo/coverage/lines.svg)](https://ausftas.github.io/tariff-psroo/coverage/)
+[![Coverage](https://ausftas.github.io/tariff-psroo/coverage/functions.svg)](https://ausftas.github.io/tariff-psroo/coverage/)
+[![Coverage](https://ausftas.github.io/tariff-psroo/coverage/branches.svg)](https://ausftas.github.io/tariff-psroo/coverage/)
+[![Coverage](https://ausftas.github.io/tariff-psroo/coverage/statements.svg)](https://ausftas.github.io/tariff-psroo/coverage/)
+
 ## TL;DR
 
 A utility library for formalising and working with product specific rules of
 origin. To use:
 
-    const psr = TariffPSR.parse('...', agreement.rulesOfOrigin, {hscode: '0101a01'});
+    const PSR = require('tariff-psroo');
+    const psr = PSR.parse('...', agreement.rulesOfOrigin, { hscode: '0101a01' });
     console.log(formula.official);
     console.log(formula.categories);
     console.log(formula.dump());
@@ -93,7 +102,7 @@ SOFTWARE.
 ### html
 
 Browserified code is checked into the repository as
-[psr.js](https://github.com/AusFTAs/tariff-psroo/blob/master/psr.js)
+[PSR.js](https://github.com/AusFTAs/tariff-psroo/blob/master/lib/PSR.js)
 
 ## Grammar
 
@@ -199,14 +208,14 @@ to compile jison grammar file into js. I.e. grammar.js
 
 Run
 
-    npm run workDev
+    npm run comp -- -w
 
  to automatically compile files in src folder into es6 commonjs
  modules in root folder. I.e. index.js and test.js
 
 Run
 
-    npm run browserify
+    npm run prepublishOnly
 
-to prepare commonjs files for browser. I.e. psr.js
+to prepare commonjs files for browser. I.e. lib/PSR.js
 

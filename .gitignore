@@ -1,4 +1,4 @@
-node_modules
-.grammar.js
-*.log
 *.lock
+*-lock.json
+node_*
+*.log
