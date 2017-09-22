@@ -1,0 +1,1628 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "tariff-psroo/.external-ecmascript.js",
+    "static": true,
+    "longname": "tariff-psroo/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "tariff-psroo/src/grammar.js",
+    "content": "/* parser generated by jison 0.4.17 */\n/*\n  Returns a Parser object of the following structure:\n\n  Parser: {\n    yy: {}\n  }\n\n  Parser.prototype: {\n    yy: {},\n    trace: function(),\n    symbols_: {associative list: name ==> number},\n    terminals_: {associative list: number ==> name},\n    productions_: [...],\n    performAction: function anonymous(yytext, yyleng, yylineno, yy, yystate, $$, _$),\n    table: [...],\n    defaultActions: {...},\n    parseError: function(str, hash),\n    parse: function(input),\n\n    lexer: {\n        EOF: 1,\n        parseError: function(str, hash),\n        setInput: function(input),\n        input: function(),\n        unput: function(str),\n        more: function(),\n        less: function(n),\n        pastInput: function(),\n        upcomingInput: function(),\n        showPosition: function(),\n        test_match: function(regex_match_array, rule_index),\n        next: function(),\n        lex: function(),\n        begin: function(condition),\n        popState: function(),\n        _currentRules: function(),\n        topState: function(),\n        pushState: function(condition),\n\n        options: {\n            ranges: boolean           (optional: true ==> token location info will include a .range[] member)\n            flex: boolean             (optional: true ==> flex-like lexing behaviour where the rules are tested exhaustively to find the longest match)\n            backtrack_lexer: boolean  (optional: true ==> lexer regexes are tested in order and for each matching regex the action code is invoked; the lexer terminates the scan when a token is returned by the action code)\n        },\n\n        performAction: function(yy, yy_, $avoiding_name_collisions, YY_START),\n        rules: [...],\n        conditions: {associative list: name ==> set},\n    }\n  }\n\n\n  token location info (@$, _$, etc.): {\n    first_line: n,\n    last_line: n,\n    first_column: n,\n    last_column: n,\n    range: [start_number, end_number]       (where the numbers are indexes into the input string, regular zero-based)\n  }\n\n\n  the parseError function receives a 'hash' object with these members for lexer and parser errors: {\n    text:        (matched text)\n    token:       (the produced terminal token, if any)\n    line:        (yylineno)\n  }\n  while parser (grammar) errors will also provide these members, i.e. parser errors deliver a superset of attributes: {\n    loc:         (yylloc)\n    expected:    (string describing the set of expected tokens)\n    recoverable: (boolean: TRUE when the parser has a error recovery rule available for this particular error)\n  }\n*/\nvar node_grammar = (function ()\n{\n  var o = function (k, v, o, l)\n    {\n      for (o = o || {}, l = k.length; l--; o[k[l]] = v);\n      return o\n    },\n    $V0 = [1, 3],\n    $V1 = [1, 4],\n    $V2 = [1, 5],\n    $V3 = [1, 7],\n    $V4 = [1, 8],\n    $V5 = [1, 9],\n    $V6 = [1, 10],\n    $V7 = [1, 11],\n    $V8 = [1, 12],\n    $V9 = [1, 13],\n    $Va = [1, 14],\n    $Vb = [1, 15],\n    $Vc = [1, 16],\n    $Vd = [5, 7, 8, 9, 11, 14, 15, 16, 17, 18, 20, 21],\n    $Ve = [1, 27],\n    $Vf = [1, 32],\n    $Vg = [1, 33],\n    $Vh = [1, 34],\n    $Vi = [1, 35],\n    $Vj = [5, 7, 8, 9, 11, 14, 15, 16, 17, 18, 20, 21, 22, 23, 25, 26];\n  var parser = {\n    trace: function trace()\n    {},\n    yy: {},\n    symbols_: {\n      \"error\": 2,\n      \"expressions\": 3,\n      \"e\": 4,\n      \"EOF\": 5,\n      \"(\": 6,\n      \")\": 7,\n      \"and\": 8,\n      \"or\": 9,\n      \"silent\": 10,\n      \"friendly\": 11,\n      \"CODE\": 12,\n      \"TEXT\": 13,\n      \"parameter\": 14,\n      \"text\": 15,\n      \"condition\": 16,\n      \"label\": 17,\n      \"from\": 18,\n      \"hslist\": 19,\n      \"except\": 20,\n      \"details\": 21,\n      \",\": 22,\n      \"-\": 23,\n      \"HS\": 24,\n      \"material\": 25,\n      \"extra\": 26,\n      \"$accept\": 0,\n      \"$end\": 1\n    },\n    terminals_: {\n      2: \"error\",\n      5: \"EOF\",\n      6: \"(\",\n      7: \")\",\n      8: \"and\",\n      9: \"or\",\n      10: \"silent\",\n      11: \"friendly\",\n      12: \"CODE\",\n      13: \"TEXT\",\n      14: \"parameter\",\n      15: \"text\",\n      16: \"condition\",\n      17: \"label\",\n      18: \"from\",\n      20: \"except\",\n      21: \"details\",\n      22: \",\",\n      23: \"-\",\n      24: \"HS\",\n      25: \"material\",\n      26: \"extra\"\n    },\n    productions_: [0, [3, 2],\n      [4, 3],\n      [4, 3],\n      [4, 3],\n      [4, 2],\n      [4, 4],\n      [4, 1],\n      [4, 3],\n      [4, 3],\n      [4, 3],\n      [4, 3],\n      [4, 3],\n      [4, 3],\n      [4, 3],\n      [19, 3],\n      [19, 3],\n      [19, 1],\n      [19, 3],\n      [19, 3]\n    ],\n    performAction: function anonymous(yytext, yyleng, yylineno, yy, yystate /* action[1] */ , $$ /* vstack */ , _$ /* lstack */ )\n    {\n      /* this == yyval */\n\n      var $0 = $$.length - 1;\n      switch (yystate)\n      {\n      case 1:\n        return $$[$0 - 1];\n        break;\n      case 2:\n        this.$ = $$[$0 - 1];\n        break;\n      case 3:\n        this.$ = {\n          and: [$$[$0 - 2], $$[$0]]\n        };\n        break;\n      case 4:\n        this.$ = {\n          or: [$$[$0 - 2], $$[$0]]\n        };\n        break;\n      case 5:\n        this.$ = $$[$0];\n        this.$.silent = true;\n        break;\n      case 6:\n        this.$ = $$[$0 - 3];\n        this.$.friendly = this.$.friendly || {};\n        this.$.friendly[$$[$0 - 1]] = $$[$0].substr(1, $$[$0].length - 2);\n        break;\n      case 7:\n      case 17:\n        this.$ = {\n          code: $$[$0]\n        };\n        break;\n      case 8:\n      case 9:\n      case 11:\n      case 14:\n      case 18:\n      case 19:\n        this.$ = $$[$0 - 2];\n        this.$[$$[$0 - 1]] = $$[$0].substr(1, $$[$0].length - 2);\n        break;\n      case 10:\n        this.$ = $$[$0 - 2];\n        this.$[$$[$0 - 1]] = this.$[$$[$0 - 1]] || [];\n        this.$[$$[$0 - 1]].push($$[$0].substr(1, $$[$0].length - 2));\n        break;\n      case 12:\n      case 13:\n        this.$ = $$[$0 - 2];\n        this.$[$$[$0 - 1]] = $$[$0];\n        break;\n      case 15:\n        this.$ = {\n          list: [$$[$0 - 2], $$[$0]]\n        };\n        break;\n      case 16:\n        this.$ = {\n          range: [$$[$0 - 2], $$[$0]]\n        };\n        break;\n      }\n    },\n    table: [{\n      3: 1,\n      4: 2,\n      6: $V0,\n      10: $V1,\n      12: $V2\n    }, {\n      1: [3]\n    }, {\n      5: [1, 6],\n      8: $V3,\n      9: $V4,\n      11: $V5,\n      14: $V6,\n      15: $V7,\n      16: $V8,\n      17: $V9,\n      18: $Va,\n      20: $Vb,\n      21: $Vc\n    }, {\n      4: 17,\n      6: $V0,\n      10: $V1,\n      12: $V2\n    }, {\n      4: 18,\n      6: $V0,\n      10: $V1,\n      12: $V2\n    }, o($Vd, [2, 7]), {\n      1: [2, 1]\n    }, {\n      4: 19,\n      6: $V0,\n      10: $V1,\n      12: $V2\n    }, {\n      4: 20,\n      6: $V0,\n      10: $V1,\n      12: $V2\n    }, {\n      12: [1, 21]\n    }, {\n      13: [1, 22]\n    }, {\n      13: [1, 23]\n    }, {\n      13: [1, 24]\n    }, {\n      13: [1, 25]\n    }, {\n      19: 26,\n      24: $Ve\n    }, {\n      19: 28,\n      24: $Ve\n    }, {\n      13: [1, 29]\n    }, {\n      7: [1, 30],\n      8: $V3,\n      9: $V4,\n      11: $V5,\n      14: $V6,\n      15: $V7,\n      16: $V8,\n      17: $V9,\n      18: $Va,\n      20: $Vb,\n      21: $Vc\n    }, o([5, 7, 8, 9, 14, 15, 16, 17, 18, 20, 21], [2, 5], {\n      11: $V5\n    }), o([5, 7, 8, 9], [2, 3], {\n      11: $V5,\n      14: $V6,\n      15: $V7,\n      16: $V8,\n      17: $V9,\n      18: $Va,\n      20: $Vb,\n      21: $Vc\n    }), o([5, 7, 9], [2, 4], {\n      8: $V3,\n      11: $V5,\n      14: $V6,\n      15: $V7,\n      16: $V8,\n      17: $V9,\n      18: $Va,\n      20: $Vb,\n      21: $Vc\n    }), {\n      13: [1, 31]\n    }, o($Vd, [2, 8]), o($Vd, [2, 9]), o($Vd, [2, 10]), o($Vd, [2, 11]), o($Vd, [2, 12], {\n      22: $Vf,\n      23: $Vg,\n      25: $Vh,\n      26: $Vi\n    }), o($Vj, [2, 17]), o($Vd, [2, 13], {\n      22: $Vf,\n      23: $Vg,\n      25: $Vh,\n      26: $Vi\n    }), o($Vd, [2, 14]), o($Vd, [2, 2]), o($Vd, [2, 6]), {\n      19: 36,\n      24: $Ve\n    }, {\n      19: 37,\n      24: $Ve\n    }, {\n      13: [1, 38]\n    }, {\n      13: [1, 39]\n    }, o([5, 7, 8, 9, 11, 14, 15, 16, 17, 18, 20, 21, 22], [2, 15], {\n      23: $Vg,\n      25: $Vh,\n      26: $Vi\n    }), o([5, 7, 8, 9, 11, 14, 15, 16, 17, 18, 20, 21, 22, 23], [2, 16], {\n      25: $Vh,\n      26: $Vi\n    }), o($Vj, [2, 18]), o($Vj, [2, 19])],\n    defaultActions: {\n      6: [2, 1]\n    },\n    parseError: function parseError(str, hash)\n    {\n      if (hash.recoverable)\n      {\n        this.trace(str);\n      }\n      else\n      {\n        function _parseError(msg, hash)\n        {\n          this.message = msg;\n          this.hash = hash;\n        }\n        _parseError.prototype = Error;\n\n        throw new _parseError(str, hash);\n      }\n    },\n    parse: function parse(input)\n    {\n      var self = this,\n        stack = [0],\n        tstack = [],\n        vstack = [null],\n        lstack = [],\n        table = this.table,\n        yytext = '',\n        yylineno = 0,\n        yyleng = 0,\n        recovering = 0,\n        TERROR = 2,\n        EOF = 1;\n      var args = lstack.slice.call(arguments, 1);\n      var lexer = Object.create(this.lexer);\n      var sharedState = {\n        yy: {}\n      };\n      for (var k in this.yy)\n      {\n        if (Object.prototype.hasOwnProperty.call(this.yy, k))\n        {\n          sharedState.yy[k] = this.yy[k];\n        }\n      }\n      lexer.setInput(input, sharedState.yy);\n      sharedState.yy.lexer = lexer;\n      sharedState.yy.parser = this;\n      if (typeof lexer.yylloc == 'undefined')\n      {\n        lexer.yylloc = {};\n      }\n      var yyloc = lexer.yylloc;\n      lstack.push(yyloc);\n      var ranges = lexer.options && lexer.options.ranges;\n      if (typeof sharedState.yy.parseError === 'function')\n      {\n        this.parseError = sharedState.yy.parseError;\n      }\n      else\n      {\n        this.parseError = Object.getPrototypeOf(this)\n          .parseError;\n      }\n\n      function popStack(n)\n      {\n        stack.length = stack.length - 2 * n;\n        vstack.length = vstack.length - n;\n        lstack.length = lstack.length - n;\n      }\n      var lex = function ()\n      {\n        var token;\n        token = lexer.lex() || EOF;\n        if (typeof token !== 'number')\n        {\n          token = self.symbols_[token] || token;\n        }\n        return token;\n      };\n      var symbol, preErrorSymbol, state, action, a, r, yyval = {},\n        p, len, newState, expected;\n      while (true)\n      {\n        state = stack[stack.length - 1];\n        if (this.defaultActions[state])\n        {\n          action = this.defaultActions[state];\n        }\n        else\n        {\n          if (symbol === null || typeof symbol == 'undefined')\n          {\n            symbol = lex();\n          }\n          action = table[state] && table[state][symbol];\n        }\n        if (typeof action === 'undefined' || !action.length || !action[0])\n        {\n          var errStr = '';\n          expected = [];\n          for (p in table[state])\n          {\n            if (this.terminals_[p] && p > TERROR)\n            {\n              expected.push('\\'' + this.terminals_[p] + '\\'');\n            }\n          }\n          if (lexer.showPosition)\n          {\n            errStr = 'Parse error on line ' + (yylineno + 1) + ':\\n' + lexer.showPosition() + '\\nExpecting ' + expected.join(', ') + ', got \\'' + (this.terminals_[symbol] || symbol) + '\\'';\n          }\n          else\n          {\n            errStr = 'Parse error on line ' + (yylineno + 1) + ': Unexpected ' + (symbol == EOF ? 'end of input' : '\\'' + (this.terminals_[symbol] || symbol) + '\\'');\n          }\n          this.parseError(errStr, {\n            text: lexer.match,\n            token: this.terminals_[symbol] || symbol,\n            line: lexer.yylineno,\n            loc: yyloc,\n            expected: expected\n          });\n        }\n        if (action[0] instanceof Array && action.length > 1)\n        {\n          throw new Error('Parse Error: multiple actions possible at state: ' + state + ', token: ' + symbol);\n        }\n        switch (action[0])\n        {\n        case 1:\n          stack.push(symbol);\n          vstack.push(lexer.yytext);\n          lstack.push(lexer.yylloc);\n          stack.push(action[1]);\n          symbol = null;\n          if (!preErrorSymbol)\n          {\n            yyleng = lexer.yyleng;\n            yytext = lexer.yytext;\n            yylineno = lexer.yylineno;\n            yyloc = lexer.yylloc;\n            if (recovering > 0)\n            {\n              recovering--;\n            }\n          }\n          else\n          {\n            symbol = preErrorSymbol;\n            preErrorSymbol = null;\n          }\n          break;\n        case 2:\n          len = this.productions_[action[1]][1];\n          yyval.$ = vstack[vstack.length - len];\n          yyval._$ = {\n            first_line: lstack[lstack.length - (len || 1)].first_line,\n            last_line: lstack[lstack.length - 1].last_line,\n            first_column: lstack[lstack.length - (len || 1)].first_column,\n            last_column: lstack[lstack.length - 1].last_column\n          };\n          if (ranges)\n          {\n            yyval._$.range = [\n              lstack[lstack.length - (len || 1)].range[0],\n              lstack[lstack.length - 1].range[1]\n            ];\n          }\n          r = this.performAction.apply(yyval, [\n            yytext,\n            yyleng,\n            yylineno,\n            sharedState.yy,\n            action[1],\n            vstack,\n            lstack\n          ].concat(args));\n          if (typeof r !== 'undefined')\n          {\n            return r;\n          }\n          if (len)\n          {\n            stack = stack.slice(0, -1 * len * 2);\n            vstack = vstack.slice(0, -1 * len);\n            lstack = lstack.slice(0, -1 * len);\n          }\n          stack.push(this.productions_[action[1]][0]);\n          vstack.push(yyval.$);\n          lstack.push(yyval._$);\n          newState = table[stack[stack.length - 2]][stack[stack.length - 1]];\n          stack.push(newState);\n          break;\n        case 3:\n          return true;\n        }\n      }\n      return true;\n    }\n  };\n  /* generated by jison-lex 0.3.4 */\n  var lexer = (function ()\n  {\n    var lexer = ({\n\n      EOF: 1,\n\n      parseError: function parseError(str, hash)\n      {\n        if (this.yy.parser)\n        {\n          this.yy.parser.parseError(str, hash);\n        }\n        else\n        {\n          throw new Error(str);\n        }\n      },\n\n      // resets the lexer, sets new input\n      setInput: function (input, yy)\n      {\n        this.yy = yy || this.yy || {};\n        this._input = input;\n        this._more = this._backtrack = this.done = false;\n        this.yylineno = this.yyleng = 0;\n        this.yytext = this.matched = this.match = '';\n        this.conditionStack = ['INITIAL'];\n        this.yylloc = {\n          first_line: 1,\n          first_column: 0,\n          last_line: 1,\n          last_column: 0\n        };\n        if (this.options.ranges)\n        {\n          this.yylloc.range = [0, 0];\n        }\n        this.offset = 0;\n        return this;\n      },\n\n      // consumes and returns one char from the input\n      input: function ()\n      {\n        var ch = this._input[0];\n        this.yytext += ch;\n        this.yyleng++;\n        this.offset++;\n        this.match += ch;\n        this.matched += ch;\n        var lines = ch.match(/(?:\\r\\n?|\\n).*/g);\n        if (lines)\n        {\n          this.yylineno++;\n          this.yylloc.last_line++;\n        }\n        else\n        {\n          this.yylloc.last_column++;\n        }\n        if (this.options.ranges)\n        {\n          this.yylloc.range[1]++;\n        }\n\n        this._input = this._input.slice(1);\n        return ch;\n      },\n\n      // unshifts one char (or a string) into the input\n      unput: function (ch)\n      {\n        var len = ch.length;\n        var lines = ch.split(/(?:\\r\\n?|\\n)/g);\n\n        this._input = ch + this._input;\n        this.yytext = this.yytext.substr(0, this.yytext.length - len);\n        //this.yyleng -= len;\n        this.offset -= len;\n        var oldLines = this.match.split(/(?:\\r\\n?|\\n)/g);\n        this.match = this.match.substr(0, this.match.length - 1);\n        this.matched = this.matched.substr(0, this.matched.length - 1);\n\n        if (lines.length - 1)\n        {\n          this.yylineno -= lines.length - 1;\n        }\n        var r = this.yylloc.range;\n\n        this.yylloc = {\n          first_line: this.yylloc.first_line,\n          last_line: this.yylineno + 1,\n          first_column: this.yylloc.first_column,\n          last_column: lines ?\n            (lines.length === oldLines.length ? this.yylloc.first_column : 0) +\n            oldLines[oldLines.length - lines.length].length - lines[0].length : this.yylloc.first_column - len\n        };\n\n        if (this.options.ranges)\n        {\n          this.yylloc.range = [r[0], r[0] + this.yyleng - len];\n        }\n        this.yyleng = this.yytext.length;\n        return this;\n      },\n\n      // When called from action, caches matched text and appends it on next action\n      more: function ()\n      {\n        this._more = true;\n        return this;\n      },\n\n      // When called from action, signals the lexer that this rule fails to match the input, so the next matching rule (regex) should be tested instead.\n      reject: function ()\n      {\n        if (this.options.backtrack_lexer)\n        {\n          this._backtrack = true;\n        }\n        else\n        {\n          return this.parseError('Lexical error on line ' + (this.yylineno + 1) + '. You can only invoke reject() in the lexer when the lexer is of the backtracking persuasion (options.backtrack_lexer = true).\\n' + this.showPosition(), {\n            text: \"\",\n            token: null,\n            line: this.yylineno\n          });\n\n        }\n        return this;\n      },\n\n      // retain first n characters of the match\n      less: function (n)\n      {\n        this.unput(this.match.slice(n));\n      },\n\n      // displays already matched input, i.e. for error messages\n      pastInput: function ()\n      {\n        var past = this.matched.substr(0, this.matched.length - this.match.length);\n        return (past.length > 20 ? '...' : '') + past.substr(-20)\n          .replace(/\\n/g, \"\");\n      },\n\n      // displays upcoming input, i.e. for error messages\n      upcomingInput: function ()\n      {\n        var next = this.match;\n        if (next.length < 20)\n        {\n          next += this._input.substr(0, 20 - next.length);\n        }\n        return (next.substr(0, 20) + (next.length > 20 ? '...' : ''))\n          .replace(/\\n/g, \"\");\n      },\n\n      // displays the character position where the lexing error occurred, i.e. for error messages\n      showPosition: function ()\n      {\n        var pre = this.pastInput();\n        var c = new Array(pre.length + 1)\n          .join(\"-\");\n        return pre + this.upcomingInput() + \"\\n\" + c + \"^\";\n      },\n\n      // test the lexed token: return FALSE when not a match, otherwise return token\n      test_match: function (match, indexed_rule)\n      {\n        var token,\n          lines,\n          backup;\n\n        if (this.options.backtrack_lexer)\n        {\n          // save context\n          backup = {\n            yylineno: this.yylineno,\n            yylloc: {\n              first_line: this.yylloc.first_line,\n              last_line: this.last_line,\n              first_column: this.yylloc.first_column,\n              last_column: this.yylloc.last_column\n            },\n            yytext: this.yytext,\n            match: this.match,\n            matches: this.matches,\n            matched: this.matched,\n            yyleng: this.yyleng,\n            offset: this.offset,\n            _more: this._more,\n            _input: this._input,\n            yy: this.yy,\n            conditionStack: this.conditionStack.slice(0),\n            done: this.done\n          };\n          if (this.options.ranges)\n          {\n            backup.yylloc.range = this.yylloc.range.slice(0);\n          }\n        }\n\n        lines = match[0].match(/(?:\\r\\n?|\\n).*/g);\n        if (lines)\n        {\n          this.yylineno += lines.length;\n        }\n        this.yylloc = {\n          first_line: this.yylloc.last_line,\n          last_line: this.yylineno + 1,\n          first_column: this.yylloc.last_column,\n          last_column: lines ?\n            lines[lines.length - 1].length - lines[lines.length - 1].match(/\\r?\\n?/)[0].length : this.yylloc.last_column + match[0].length\n        };\n        this.yytext += match[0];\n        this.match += match[0];\n        this.matches = match;\n        this.yyleng = this.yytext.length;\n        if (this.options.ranges)\n        {\n          this.yylloc.range = [this.offset, this.offset += this.yyleng];\n        }\n        this._more = false;\n        this._backtrack = false;\n        this._input = this._input.slice(match[0].length);\n        this.matched += match[0];\n        token = this.performAction.call(this, this.yy, this, indexed_rule, this.conditionStack[this.conditionStack.length - 1]);\n        if (this.done && this._input)\n        {\n          this.done = false;\n        }\n        if (token)\n        {\n          return token;\n        }\n        else if (this._backtrack)\n        {\n          // recover context\n          for (var k in backup)\n          {\n            this[k] = backup[k];\n          }\n          return false; // rule action called reject() implying the next rule should be tested instead.\n        }\n        return false;\n      },\n\n      // return next match in input\n      next: function ()\n      {\n        if (this.done)\n        {\n          return this.EOF;\n        }\n        if (!this._input)\n        {\n          this.done = true;\n        }\n\n        var token,\n          match,\n          tempMatch,\n          index;\n        if (!this._more)\n        {\n          this.yytext = '';\n          this.match = '';\n        }\n        var rules = this._currentRules();\n        for (var i = 0; i < rules.length; i++)\n        {\n          tempMatch = this._input.match(this.rules[rules[i]]);\n          if (tempMatch && (!match || tempMatch[0].length > match[0].length))\n          {\n            match = tempMatch;\n            index = i;\n            if (this.options.backtrack_lexer)\n            {\n              token = this.test_match(tempMatch, rules[i]);\n              if (token !== false)\n              {\n                return token;\n              }\n              else if (this._backtrack)\n              {\n                match = false;\n                continue; // rule action called reject() implying a rule MISmatch.\n              }\n              else\n              {\n                // else: this is a lexer rule which consumes input without producing a token (e.g. whitespace)\n                return false;\n              }\n            }\n            else if (!this.options.flex)\n            {\n              break;\n            }\n          }\n        }\n        if (match)\n        {\n          token = this.test_match(match, rules[index]);\n          if (token !== false)\n          {\n            return token;\n          }\n          // else: this is a lexer rule which consumes input without producing a token (e.g. whitespace)\n          return false;\n        }\n        if (this._input === \"\")\n        {\n          return this.EOF;\n        }\n        else\n        {\n          return this.parseError('Lexical error on line ' + (this.yylineno + 1) + '. Unrecognized text.\\n' + this.showPosition(), {\n            text: \"\",\n            token: null,\n            line: this.yylineno\n          });\n        }\n      },\n\n      // return next match that has a token\n      lex: function lex()\n      {\n        var r = this.next();\n        if (r)\n        {\n          return r;\n        }\n        else\n        {\n          return this.lex();\n        }\n      },\n\n      // activates a new lexer condition state (pushes the new lexer condition state onto the condition stack)\n      begin: function begin(condition)\n      {\n        this.conditionStack.push(condition);\n      },\n\n      // pop the previously active lexer condition state off the condition stack\n      popState: function popState()\n      {\n        var n = this.conditionStack.length - 1;\n        if (n > 0)\n        {\n          return this.conditionStack.pop();\n        }\n        else\n        {\n          return this.conditionStack[0];\n        }\n      },\n\n      // produce the lexer rule set which is active for the currently active lexer condition state\n      _currentRules: function _currentRules()\n      {\n        if (this.conditionStack.length && this.conditionStack[this.conditionStack.length - 1])\n        {\n          return this.conditions[this.conditionStack[this.conditionStack.length - 1]].rules;\n        }\n        else\n        {\n          return this.conditions[\"INITIAL\"].rules;\n        }\n      },\n\n      // return the currently active lexer condition state; when an index argument is provided it produces the N-th previous condition state, if available\n      topState: function topState(n)\n      {\n        n = this.conditionStack.length - 1 - Math.abs(n || 0);\n        if (n >= 0)\n        {\n          return this.conditionStack[n];\n        }\n        else\n        {\n          return \"INITIAL\";\n        }\n      },\n\n      // alias for begin(condition)\n      pushState: function pushState(condition)\n      {\n        this.begin(condition);\n      },\n\n      // return the number of states currently on the stack\n      stateStackSize: function stateStackSize()\n      {\n        return this.conditionStack.length;\n      },\n      options: {},\n      performAction: function anonymous(yy, yy_, $avoiding_name_collisions, YY_START)\n      {\n        var YYSTATE = YY_START;\n        switch ($avoiding_name_collisions)\n        {\n        case 0:\n          /* skip whitespace */\n          break;\n        case 1:\n          return 12;\n          break;\n        case 2:\n          return 24;\n          break;\n        case 3:\n          return 13;\n          break;\n        case 4:\n          return 22;\n          break;\n        case 5:\n          return 23;\n          break;\n        case 6:\n          return 10\n          break;\n        case 7:\n          return 14\n          break;\n        case 8:\n          return 18\n          break;\n        case 9:\n          return 15\n          break;\n        case 10:\n          return 20\n          break;\n        case 11:\n          return 16\n          break;\n        case 12:\n          return 17\n          break;\n        case 13:\n          return 21\n          break;\n        case 14:\n          return 25\n          break;\n        case 15:\n          return 26\n          break;\n        case 16:\n          return 11\n          break;\n        case 17:\n          return 6;\n          break;\n        case 18:\n          return 7;\n          break;\n        case 19:\n          return '<';\n          break;\n        case 20:\n          return '>';\n          break;\n        case 21:\n          return 8;\n          break;\n        case 22:\n          return 9;\n          break;\n        case 23:\n          return 5;\n          break;\n        }\n      },\n      rules: [/^(?:\\s+)/, /^(?:[A-Z][A-Z0-9_]*)/, /^(?:[0-9]+)/, /^(?:['][^']+['])/, /^(?:,)/, /^(?:-)/, /^(?:silent\\b)/, /^(?:parameter\\b)/, /^(?:from\\b)/, /^(?:text\\b)/, /^(?:except\\b)/, /^(?:condition\\b)/, /^(?:label\\b)/, /^(?:details\\b)/, /^(?:material\\b)/, /^(?:extra\\b)/, /^(?:friendly\\b)/, /^(?:\\()/, /^(?:\\))/, /^(?:<)/, /^(?:>)/, /^(?:and\\b)/, /^(?:or\\b)/, /^(?:$)/],\n      conditions: {\n        \"INITIAL\": {\n          \"rules\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],\n          \"inclusive\": true\n        }\n      }\n    });\n    return lexer;\n  })();\n  parser.lexer = lexer;\n\n  function Parser()\n  {\n    this.yy = {};\n  }\n  Parser.prototype = parser;\n  parser.Parser = Parser;\n  return new Parser;\n})();\n\n\nif (typeof require !== 'undefined' && typeof exports !== 'undefined')\n{\n  exports.parser = node_grammar;\n  exports.Parser = node_grammar.Parser;\n  exports.parse = function ()\n  {\n    return node_grammar.parse.apply(node_grammar, arguments);\n  };\n  exports.main = function commonjsMain(args)\n  {\n    if (!args[1])\n    {\n      console.log('Usage: ' + args[0] + ' FILE');\n      process.exit(1);\n    }\n  };\n  if (typeof module !== 'undefined' && require.main === module)\n  {\n    exports.main(process.argv.slice(1));\n  }\n}\n",
+    "static": true,
+    "longname": "/home/travis/build/AusFTAs/tariff-psroo/src/grammar.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "variable",
+    "name": "node_grammar",
+    "memberof": "tariff-psroo/src/grammar.js",
+    "static": true,
+    "longname": "tariff-psroo/src/grammar.js~node_grammar",
+    "access": "public",
+    "export": false,
+    "importPath": "tariff-psroo/tariff-psroo/src/grammar.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 74,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 50,
+    "kind": "file",
+    "name": "tariff-psroo/src/index.js",
+    "content": "/**\n * @file Product Specific Rules Of Origin Module\n * \n * @author Nahid Akbar\n * @year 2015\n * @copyright National ICT Australia (NICTA). All rights reserved.\n */\n\n\"use strict\";\n\nconst grammar = require(\"./grammar\");\nconst uglifyHS = require('pretty-print-hscode');\nconst template = require('./template');\n\n/**\n * @typedef {object} ROO\n * @property {string} type category|question|outcome\n */\n\n/**\n * @typedef {ROO} ROOCategory\n * @property {string} itemIf id/code of item\n * @property {string} label Category label\n * @property {string} [details] details of category\n */\n\n/**\n * @typedef {ROO} ROOQuestion\n * @property {string} itemIf id/code of item\n * @property {string} parentCategory id/code of parent category\n * @property {string} label Question label\n * @property {string} [details] details of question\n * @property {string} [itemIfText] expansion text of itemIf code\n */\n\n/**\n * @typedef {ROO} ROOOutcome\n * @property {string} itemIf unclear|applicable|inapplicable\n * @property {string} label Outcome label\n * @property {string} [details] details of outcome\n */\n\n/**\n * Main class\n */\nclass PSR\n{\n  /**\n   * @param {object} tree PSR DSL parse tree\n   * @param {Array<ROO>} roo rules of origin questionnaire\n   * @param {object} vars template variables\n   * @param {object} vars.hscode HS code of psr\n   */\n  constructor(tree, roo, vars)\n  {\n    /**\n     * PSR DSL parse tree\n     * @type {object}\n     * @private\n     */\n    this.tree = tree;\n    /**\n     * rules of origin questionnaire\n     * @type {Array<ROO>}\n     * @private\n     */\n    this.roo = roo;\n\n    /**\n     * A string representation of PSR that is akin to input data.\n     * \n     * Does not show implicit (silent) codes.\n     * \n     * This might be suitable for display to general trade negotiators but is\n     * not suitable for display to general users.\n     * @type {string}\n     */\n    this.official = formatOfficialHelper(this.tree);\n\n    let codes = findAllCodesHelper(this.tree);\n    let conditions = findAllConditionsHelper(codes);\n    let labels = findAllLabelsHelper(codes);\n    let details = findAllDetailsHelper(codes);\n\n    let categoryById = {};\n    let questionById = {};\n\n    /**\n     * Friendly text expansion of codes used in DSL.\n     * \n     * Derived from RoO template itemIfText\n     * @type {Map{string, string}}\n     * @private\n     */\n    this.friendlyExpanded = {};\n    /**\n     * Mapping of question id to category id\n     * @type {Map{string, string}}\n     * @private\n     */\n    this.friendlyGroupingException = {};\n\n    /**\n     * List of all categories.\n     * \n     * You will want to iterate through this object to display categories and questions.\n     * \n     * @type {Array<ROOCategory>}\n     */\n    this.categories = [];\n    /**\n     * List of all questions that might potentially be asked.\n     * \n     * @type {Array<ROOQuestion>}\n     * @private\n     */\n    this.questions = [];\n    /**\n     * List of all all outcomes.\n     * \n     * @type {Map<string, ROOOutcome>}\n     * @private\n     */\n    this.outcomes = {};\n\n    let that = this;\n\n    roo.forEach((item, index) =>\n    {\n      item.item = index;\n      if (item.type === 'category')\n      {\n        item.ruleFormattingStr = item.ruleFormattingStr || 'For {{hscode}}, the rule is {{friendlyRules}}.';\n        item.conditionsExtraDetailsStr = item.conditionsExtraDetailsStr || 'The addition of \"provided that\" or \"except from\" in the rule creates additional parameters that must be followed for the product to qualify under this rule. Please follow closely the wording of the rule in selecting \"yes\" or \"no\" for this question.';\n        item.details = item.details || '';\n        item.questions = [];\n        item.questionsById = {};\n        that.categories.push(categoryById[item.itemIf] = item);\n      }\n      else if (item.type === 'question')\n      {\n        const included = item.itemIf.split(',')\n          .filter(itm => codes[itm] !== undefined)\n          .length > 0;\n        if (included)\n        {\n          that.questions.push(item);\n\n          let category = categoryById[item.parentCategory];\n\n          category.questions.push(item);\n          category.questionsById[item.itemIf] = item;\n\n          if (item.itemIf in labels)\n          {\n            item.label = labels[item.itemIf];\n          }\n          if (item.details)\n          {\n            item.details = [item.details];\n          }\n          else\n          {\n            item.details = [];\n          }\n          if (item.itemIf in conditions)\n          {\n            item.conditions = conditions[item.itemIf];\n            item.label = item.label.replace(/\\?$/, \" in accordance with the following rules?\");\n            item.details.push(category.conditionsExtraDetailsStr);\n          }\n          if (item.itemIf in details)\n          {\n            item.details.push(details[item.itemIf]);\n          }\n\n          let code = codes[item.itemIf];\n\n          vars.parameter = code.parameter || undefined;\n\n          item.label = template(item.label, vars);\n          item.details = item.details.join('\\n\\n')\n\n          item.details = template(item.details.replace(/(^\\s*|\\s*$)/g, ''), vars);\n        }\n        if (item.parentCategory)\n        {\n          that.friendlyGroupingException[item.itemIf] = item.parentCategory;\n        }\n        if (item.itemIfText)\n        {\n          that.friendlyExpanded[item.itemIf] = item.itemIfText;\n        }\n        questionById[item.itemIf] = item;\n      }\n      else if (item.type === 'outcome')\n      {\n        that.outcomes[item.itemIf] = item;\n      }\n    });\n\n    Object.keys(codes)\n      .filter(code => !(code in questionById))\n      .forEach(code =>\n      {\n        throw new Error(`Question related to ${code} does not exist.`);\n      });\n\n    this.categories.forEach(category =>\n    {\n      vars.friendlyRules = friendlyHelper(that.tree, that.friendlyExpanded,\n          that.friendlyGroupingException, category.itemIf, category, vars)\n        .replace(/(^\\s+|\\s+$)/g, '')\n        .replace(/^(or |and | )*|( or| and| )*$/g, '');\n      if (vars.friendlyRules)\n      {\n        category.friendlyRules = vars.friendlyRules = template(vars.friendlyRules, vars);\n        category.details += (category.details ? '\\n\\n' : '') + category.ruleFormattingStr;\n        category.details = template(category.details, vars);\n      }\n    });\n    this.iterate();\n  }\n\n  /**\n   * Dump DSL string from this representation.\n   * \n   * Used for testing various aspects of serialisation.\n   * \n   * @return {string}\n   */\n  dump()\n  {\n    return dumpHelper(this.tree);\n  }\n\n  /**\n   * Once you have some answers to questions, iterate with those answers to progress\n   * questionnaire.\n   * \n   * @param {Map<string, boolean>} answers mapping of question code to answers. It should be true for answered yes, no for answered no and not present or undefined for unanswered.\n   * \n   * @return {ROOOutcome}\n   */\n  iterate(answers)\n  {\n    answers = answers || {};\n    var that = this;\n\n    var blacklist = {};\n    var values = {};\n    var outcome = 'unclear';\n    for (var q1 = 0; q1 < this.questions.length && outcome == 'unclear'; q1++)\n    {\n      this.questions[q1].visible = false;\n    }\n    for (var q = 0; q < this.questions.length && outcome == 'unclear'; q++)\n    {\n      var question = this.questions[q];\n      if (!(question.itemIf in blacklist))\n      {\n        question.visible = true;\n        if (answers[question.itemIf] === true || answers[question.itemIf] === false)\n        {\n          values[question.itemIf] = answers[question.itemIf] === true;\n          outcome = evaluateHelper(this.tree, values, blacklist, {});\n        }\n        else\n        {\n          break;\n        }\n      }\n    }\n\n    Object.keys(that.categories)\n      .map(cat => that.categories[cat])\n      .forEach(category =>\n      {\n        category.visible = false;\n        category.questions.forEach(question =>\n        {\n          category.visible = category.visible || question.visible;\n        });\n      });\n\n    return this.outcomes[outcome];\n  }\n\n  /**\n   * Constructs a PSR object.\n   * \n   * Use this instead of using PSR object directly. It will maintain backward compatible interface with optional parameters.\n   * \n   * @param {string} dslText ROO DSL text\n   * @param {Array<ROO>} [rooTemplate=[]] ROO questionnaire\n   * @param {object} [templateVariables={}] Template variables.\n   * @return {PSR}\n   */\n  static parse(dslText, rooTemplate = [], templateVariables = {})\n  {\n    return new PSR(grammar.parse(dslText), JSON.parse(JSON.stringify(rooTemplate)), templateVariables);\n  }\n}\n\n\nfunction formatOfficialHelper(tree)\n{\n  if (tree.silent)\n  {\n    return '';\n  }\n\n  if (tree.or)\n  {\n    return tree.or.map(formatOfficialHelper)\n      .filter(i => i)\n      .join(' or ');\n  }\n  if (tree.and)\n  {\n    return tree.and.map(formatOfficialHelper)\n      .filter(i => i)\n      .join(' or ');\n  }\n\n  if (tree.text)\n  {\n    return tree.text;\n  }\n  else\n  {\n    var output = '';\n    if (tree.code)\n    {\n      //if (/^\\d+$/.test(tree.code))\n      //{\n      //  output += ' materials of ' + uglifyHS(tree.code);\n      //}\n      //else\n      //{\n      output += tree.code.replace(/_/g, '');\n      //}\n    }\n    if (tree.parameter)\n    {\n      output += '(' + tree.parameter + ')';\n    }\n\n    if (tree.except)\n    {\n      output += hslistToText(tree.except);\n    }\n\n    if (tree.condition)\n    {\n      output += ' ' + tree.condition;\n    }\n    return output.replace(/[ ]+/g, ' ')\n      .replace(/(^[ ]|[ ]$)/, '');\n  }\n}\n\n\nfunction findAllCodesHelper(tree, output)\n{\n  output = output || {};\n  if (tree.or)\n  {\n    tree.or.forEach(x => findAllCodesHelper(x, output));\n  }\n  if (tree.and)\n  {\n    tree.and.forEach(x => findAllCodesHelper(x, output));\n  }\n  if (tree.code)\n  {\n    output[tree.code] = tree;\n  }\n  return output;\n}\n\nfunction findAllLabelsHelper(codes)\n{\n  let output = {};\n  Object.keys(codes)\n    .map(c => codes[c])\n    .filter(tree => tree.label)\n    .forEach(tree =>\n    {\n      output[tree.code] = tree.label;\n    });\n  return output;\n}\n\nfunction findAllDetailsHelper(codes)\n{\n  let output = {};\n\n  Object.keys(codes)\n    .map(c => codes[c])\n    .filter(tree => tree.details)\n    .forEach(tree =>\n    {\n      output[tree.code] = output[tree.code] || [];\n      output[tree.code].push(tree.details);\n    });\n\n  return output;\n}\n\nfunction findAllConditionsHelper(codes)\n{\n  let output = {};\n\n  Object.keys(codes)\n    .map(c => codes[c])\n    .filter(tree => tree.except || tree.condition || tree.from)\n    .forEach(tree =>\n    {\n      let list = output[tree.code] || [];\n      if (tree.from)\n      {\n        list.push(`provided that it is a change from ${hslistToText(tree.from)}`);\n      }\n      if (tree.except)\n      {\n        list = list.concat(hslistToConditions(tree.except));\n      }\n      if (tree.condition)\n      {\n        tree.condition.forEach(cond => list.push(cond));\n      }\n      output[tree.code] = list\n    });\n\n  return output;\n}\n\nfunction hslistToConditions(except)\n{\n  if (except.list)\n  {\n    return hslistToConditions(except.list[0])\n      .concat(hslistToConditions(except.list[1]));\n  }\n  return [`provided that it is not a change from ${hslistToText(except)}`];\n}\n\nfunction hslistToText(except, index, list)\n{\n  if (except.range)\n  {\n    return except.range.map(hslistToText)\n      .join(' through to ');\n  }\n  else if (except.list)\n  {\n    return except.list.map(hslistToText)\n      .join(', ');\n  }\n\n  let printMaterial = true;\n\n  if (index && list && list[index - 1].material === except.material)\n  {\n    printMaterial = false;\n  }\n\n  return (printMaterial ? (except.material || 'materials') + ' of ' : '') + `${uglifyHS(except.code)}${except.extra? ' ' + except.extra : ''}`;\n}\n\n// ==========================\n\nfunction hslistToEncoded(except)\n{\n  if (except.range)\n  {\n    return except.range.map(hslistToEncoded)\n      .join('-');\n  }\n\n  if (except.list)\n  {\n    return except.list.map(hslistToEncoded)\n      .join(',');\n  }\n\n  let output = '' + except.code;\n\n  if (except.material)\n  {\n    output += ` material '${except.material}'`;\n  }\n\n  if (except.extra)\n  {\n    output += ` extra '${except.extra}'`;\n  }\n\n  return output;\n}\n\n\nlet dumpHelper = function (tree)\n{\n  var output = '';\n\n  if (tree.or)\n  {\n    output = `${dumpHelper(tree.or[0])} or ${dumpHelper(tree.or[1])}`;\n  }\n  if (tree.and)\n  {\n    output = `${dumpHelper(tree.and[0])} and ${dumpHelper(tree.and[1])}`;\n  }\n\n  if (tree.code)\n  {\n    output += tree.code;\n  }\n\n  if (tree.parameter)\n  {\n    output += ` parameter '${tree.parameter}'`;\n  }\n\n  if (tree.from)\n  {\n    output += ' from ' + hslistToEncoded(tree.from);\n  }\n\n  if (tree.text)\n  {\n    output += ` text '${tree.text}'`;\n  }\n\n  if (tree.except)\n  {\n    output += ' except ' + hslistToEncoded(tree.except);\n  }\n\n  if (tree.condition)\n  {\n    tree.condition.forEach(condition => output += ` condition '${condition}'`);\n  }\n\n  if (tree.label)\n  {\n    output += ` label '${tree.label}'`;\n  }\n\n  if (tree.details)\n  {\n    output += ` details '${tree.details}'`;\n  }\n\n  if (tree.silent)\n  {\n    output = `silent (${output})`;\n  }\n\n  if (tree.friendly)\n  {\n    Object.keys(tree.friendly)\n      .forEach(category =>\n      {\n        output = `(${output}) friendly ${category} '${tree.friendly[category]}'`;\n      });\n  }\n\n  return output;\n};\n\n\nvar friendlyHelper = function (tree, expanded, groups, category, settings, vars)\n{\n\n  if (tree.friendly && category in tree.friendly)\n  {\n    return tree.friendly[category];\n  }\n\n  if (tree.silent)\n  {\n    return '';\n  }\n\n  if (tree.or)\n  {\n    return tree.or.map(rule => friendlyHelper(rule, expanded, groups, category, settings, vars))\n      .filter(i => i)\n      .join(' or ');\n  }\n\n  if (tree.and)\n  {\n    return tree.and.map(rule => friendlyHelper(rule, expanded, groups, category, settings, vars))\n      .filter(i => i)\n      .join(' and ');\n  }\n\n  if (tree.code && tree.code in groups)\n  {\n    if (groups[tree.code] !== category)\n    {\n      return '';\n    }\n  }\n\n  if (tree.parameter)\n  {\n    vars.parameter = tree.parameter;\n  }\n\n  if (tree.text)\n  {\n    return template(tree.text, vars);\n  }\n  else if (settings.questionsById[tree.code].friendlyText)\n  {\n    return template(settings.questionsById[tree.code].friendlyText, vars);\n  }\n  else\n  {\n    var output = '';\n    if (tree.code)\n    {\n      //if (/^\\d+$/.test(tree.code))\n      //{\n      //  output += ' materials of ' + uglifyHS(tree.code);\n      //}\n      //else\n      //{\n      output += tree.code;\n      //}\n    }\n    if (tree.parameter)\n    {\n      output += '(' + tree.parameter + ')';\n    }\n\n    if (tree.from)\n    {\n      output += ' from ' + hslistToText(tree.from);\n    }\n\n    if (tree.code in expanded)\n    {\n      if (tree.parameter)\n      {\n        output = expanded[tree.code] + (settings.hideItemCode ? '' : ' - ' + output);\n      }\n      else\n      {\n        output = expanded[tree.code] + (settings.hideItemCode ? '' : ' (' + output + ')');\n      }\n    }\n\n    if (tree.except)\n    {\n      output += ' except from ' + hslistToText(tree.except);\n    }\n\n    if (tree.condition)\n    {\n      output += ' ' + tree.condition;\n    }\n    return template(output, vars);\n  }\n\n};\n\n\nfunction evaluateHelper(tree, values, blacklist, whitelist)\n{\n  let a, b;\n  if (tree.or)\n  {\n    a = evaluateHelper(tree.or[0], values, blacklist, whitelist);\n    b = evaluateHelper(tree.or[1], values, blacklist, whitelist);\n    if (a === 'applicable' || b === 'applicable')\n    {\n      return 'applicable';\n    }\n    if (a === 'unclear' || b === 'unclear')\n    {\n      return 'unclear';\n    }\n    return 'inapplicable';\n  }\n  if (tree.and)\n  {\n    a = evaluateHelper(tree.and[0], values, blacklist, whitelist);\n    b = evaluateHelper(tree.and[1], values, blacklist, whitelist);\n    if (a === 'applicable' && b === 'applicable')\n    {\n      return 'applicable';\n    }\n    if (a === 'inapplicable')\n    {\n      Object.keys(findAllCodesHelper(tree.and[1]))\n        .forEach(code =>\n        {\n          if (!whitelist[code])\n          {\n            blacklist[code] = !whitelist[code]\n          }\n        });\n      return 'inapplicable';\n    }\n    else\n    {\n      Object.keys(findAllCodesHelper(tree))\n        .forEach(code =>\n        {\n          delete blacklist[code]\n          whitelist[code] = true;\n        });\n    }\n    if (b === 'inapplicable')\n    {\n      Object.keys(findAllCodesHelper(tree.and[0]))\n        .forEach(code =>\n        {\n          if (!whitelist[code])\n          {\n            blacklist[code] = true\n          }\n        });\n      return 'inapplicable';\n    }\n    else\n    {\n      Object.keys(findAllCodesHelper(tree))\n        .forEach(code =>\n        {\n          delete blacklist[code]\n          whitelist[code] = true;\n        });\n    }\n    return 'unclear';\n  }\n  if (values[tree.code] === undefined)\n  {\n    return 'unclear';\n  }\n  else if (values[tree.code] === true)\n  {\n    return 'applicable';\n  }\n  else\n  {\n    return 'inapplicable';\n  }\n}\n\nmodule.exports = PSR;\n",
+    "static": true,
+    "longname": "/home/travis/build/AusFTAs/tariff-psroo/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 51,
+    "kind": "function",
+    "name": "formatOfficialHelper",
+    "memberof": "tariff-psroo/src/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "tariff-psroo/src/index.js~formatOfficialHelper",
+    "access": "public",
+    "export": false,
+    "importPath": "tariff-psroo/tariff-psroo/src/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 306,
+    "undocument": true,
+    "params": [
+      {
+        "name": "tree",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 52,
+    "kind": "function",
+    "name": "findAllCodesHelper",
+    "memberof": "tariff-psroo/src/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "tariff-psroo/src/index.js~findAllCodesHelper",
+    "access": "public",
+    "export": false,
+    "importPath": "tariff-psroo/tariff-psroo/src/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 364,
+    "undocument": true,
+    "params": [
+      {
+        "name": "tree",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "output",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 53,
+    "kind": "function",
+    "name": "findAllLabelsHelper",
+    "memberof": "tariff-psroo/src/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "tariff-psroo/src/index.js~findAllLabelsHelper",
+    "access": "public",
+    "export": false,
+    "importPath": "tariff-psroo/tariff-psroo/src/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 382,
+    "undocument": true,
+    "params": [
+      {
+        "name": "codes",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 54,
+    "kind": "function",
+    "name": "findAllDetailsHelper",
+    "memberof": "tariff-psroo/src/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "tariff-psroo/src/index.js~findAllDetailsHelper",
+    "access": "public",
+    "export": false,
+    "importPath": "tariff-psroo/tariff-psroo/src/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 395,
+    "undocument": true,
+    "params": [
+      {
+        "name": "codes",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 55,
+    "kind": "function",
+    "name": "findAllConditionsHelper",
+    "memberof": "tariff-psroo/src/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "tariff-psroo/src/index.js~findAllConditionsHelper",
+    "access": "public",
+    "export": false,
+    "importPath": "tariff-psroo/tariff-psroo/src/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 411,
+    "undocument": true,
+    "params": [
+      {
+        "name": "codes",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 56,
+    "kind": "function",
+    "name": "hslistToConditions",
+    "memberof": "tariff-psroo/src/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "tariff-psroo/src/index.js~hslistToConditions",
+    "access": "public",
+    "export": false,
+    "importPath": "tariff-psroo/tariff-psroo/src/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 439,
+    "undocument": true,
+    "params": [
+      {
+        "name": "except",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "undefined[]"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 57,
+    "kind": "function",
+    "name": "hslistToText",
+    "memberof": "tariff-psroo/src/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "tariff-psroo/src/index.js~hslistToText",
+    "access": "public",
+    "export": false,
+    "importPath": "tariff-psroo/tariff-psroo/src/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 449,
+    "undocument": true,
+    "params": [
+      {
+        "name": "except",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "index",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "list",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 58,
+    "kind": "function",
+    "name": "hslistToEncoded",
+    "memberof": "tariff-psroo/src/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "tariff-psroo/src/index.js~hslistToEncoded",
+    "access": "public",
+    "export": false,
+    "importPath": "tariff-psroo/tariff-psroo/src/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 474,
+    "undocument": true,
+    "params": [
+      {
+        "name": "except",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 59,
+    "kind": "function",
+    "name": "dumpHelper",
+    "memberof": "tariff-psroo/src/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "tariff-psroo/src/index.js~dumpHelper",
+    "access": "public",
+    "export": false,
+    "importPath": "tariff-psroo/tariff-psroo/src/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 504,
+    "undocument": true,
+    "params": [
+      {
+        "name": "tree",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 60,
+    "kind": "function",
+    "name": "friendlyHelper",
+    "memberof": "tariff-psroo/src/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "tariff-psroo/src/index.js~friendlyHelper",
+    "access": "public",
+    "export": false,
+    "importPath": "tariff-psroo/tariff-psroo/src/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 575,
+    "undocument": true,
+    "params": [
+      {
+        "name": "tree",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "expanded",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "groups",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "category",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "settings",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "vars",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 61,
+    "kind": "function",
+    "name": "evaluateHelper",
+    "memberof": "tariff-psroo/src/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "tariff-psroo/src/index.js~evaluateHelper",
+    "access": "public",
+    "export": false,
+    "importPath": "tariff-psroo/tariff-psroo/src/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 674,
+    "undocument": true,
+    "params": [
+      {
+        "name": "tree",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "values",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "blacklist",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "whitelist",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "string"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 62,
+    "kind": "typedef",
+    "name": "ROO",
+    "memberof": "tariff-psroo/src/index.js",
+    "static": true,
+    "longname": "tariff-psroo/src/index.js~ROO",
+    "access": "public",
+    "description": "",
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "type",
+        "description": "category|question|outcome"
+      }
+    ],
+    "type": {
+      "types": [
+        "object"
+      ],
+      "optional": false,
+      "name": "ROO"
+    }
+  },
+  {
+    "__docId__": 63,
+    "kind": "typedef",
+    "name": "ROOCategory",
+    "memberof": "tariff-psroo/src/index.js",
+    "static": true,
+    "longname": "tariff-psroo/src/index.js~ROOCategory",
+    "access": "public",
+    "description": "",
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "itemIf",
+        "description": "id/code of item"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "label",
+        "description": "Category label"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "details",
+        "description": "details of category"
+      }
+    ],
+    "type": {
+      "types": [
+        "ROO"
+      ],
+      "optional": false,
+      "name": "ROOCategory"
+    }
+  },
+  {
+    "__docId__": 64,
+    "kind": "typedef",
+    "name": "ROOQuestion",
+    "memberof": "tariff-psroo/src/index.js",
+    "static": true,
+    "longname": "tariff-psroo/src/index.js~ROOQuestion",
+    "access": "public",
+    "description": "",
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "itemIf",
+        "description": "id/code of item"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "parentCategory",
+        "description": "id/code of parent category"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "label",
+        "description": "Question label"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "details",
+        "description": "details of question"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "itemIfText",
+        "description": "expansion text of itemIf code"
+      }
+    ],
+    "type": {
+      "types": [
+        "ROO"
+      ],
+      "optional": false,
+      "name": "ROOQuestion"
+    }
+  },
+  {
+    "__docId__": 65,
+    "kind": "typedef",
+    "name": "ROOOutcome",
+    "memberof": "tariff-psroo/src/index.js",
+    "static": true,
+    "longname": "tariff-psroo/src/index.js~ROOOutcome",
+    "access": "public",
+    "description": "",
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "itemIf",
+        "description": "unclear|applicable|inapplicable"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "label",
+        "description": "Outcome label"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "details",
+        "description": "details of outcome"
+      }
+    ],
+    "type": {
+      "types": [
+        "ROO"
+      ],
+      "optional": false,
+      "name": "ROOOutcome"
+    }
+  },
+  {
+    "__docId__": 66,
+    "kind": "class",
+    "name": "PSR",
+    "memberof": "tariff-psroo/src/index.js",
+    "static": true,
+    "longname": "tariff-psroo/src/index.js~PSR",
+    "access": "public",
+    "export": true,
+    "importPath": "tariff-psroo/tariff-psroo/src/index.js",
+    "importStyle": "PSR",
+    "description": "Main class",
+    "lineNumber": 46,
+    "interface": false
+  },
+  {
+    "__docId__": 67,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "tariff-psroo/src/index.js~PSR",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "tariff-psroo/src/index.js~PSR#constructor",
+    "access": "public",
+    "description": "",
+    "lineNumber": 54,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "tree",
+        "description": "PSR DSL parse tree"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Array<ROO>"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "roo",
+        "description": "rules of origin questionnaire"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "vars",
+        "description": "template variables"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "vars.hscode",
+        "description": "HS code of psr"
+      }
+    ]
+  },
+  {
+    "__docId__": 68,
+    "kind": "member",
+    "name": "tree",
+    "memberof": "tariff-psroo/src/index.js~PSR",
+    "static": false,
+    "longname": "tariff-psroo/src/index.js~PSR#tree",
+    "access": "private",
+    "description": "PSR DSL parse tree",
+    "lineNumber": 61,
+    "type": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 69,
+    "kind": "member",
+    "name": "roo",
+    "memberof": "tariff-psroo/src/index.js~PSR",
+    "static": false,
+    "longname": "tariff-psroo/src/index.js~PSR#roo",
+    "access": "private",
+    "description": "rules of origin questionnaire",
+    "lineNumber": 67,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Array<ROO>"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 70,
+    "kind": "member",
+    "name": "official",
+    "memberof": "tariff-psroo/src/index.js~PSR",
+    "static": false,
+    "longname": "tariff-psroo/src/index.js~PSR#official",
+    "access": "public",
+    "description": "A string representation of PSR that is akin to input data.\n\nDoes not show implicit (silent) codes.\n\nThis might be suitable for display to general trade negotiators but is\nnot suitable for display to general users.",
+    "lineNumber": 78,
+    "type": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 71,
+    "kind": "member",
+    "name": "friendlyExpanded",
+    "memberof": "tariff-psroo/src/index.js~PSR",
+    "static": false,
+    "longname": "tariff-psroo/src/index.js~PSR#friendlyExpanded",
+    "access": "private",
+    "description": "Friendly text expansion of codes used in DSL.\n\nDerived from RoO template itemIfText",
+    "lineNumber": 95,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Map{string, string}"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 72,
+    "kind": "member",
+    "name": "friendlyGroupingException",
+    "memberof": "tariff-psroo/src/index.js~PSR",
+    "static": false,
+    "longname": "tariff-psroo/src/index.js~PSR#friendlyGroupingException",
+    "access": "private",
+    "description": "Mapping of question id to category id",
+    "lineNumber": 101,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Map{string, string}"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 73,
+    "kind": "member",
+    "name": "categories",
+    "memberof": "tariff-psroo/src/index.js~PSR",
+    "static": false,
+    "longname": "tariff-psroo/src/index.js~PSR#categories",
+    "access": "public",
+    "description": "List of all categories.\n\nYou will want to iterate through this object to display categories and questions.",
+    "lineNumber": 110,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Array<ROOCategory>"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 74,
+    "kind": "member",
+    "name": "questions",
+    "memberof": "tariff-psroo/src/index.js~PSR",
+    "static": false,
+    "longname": "tariff-psroo/src/index.js~PSR#questions",
+    "access": "private",
+    "description": "List of all questions that might potentially be asked.",
+    "lineNumber": 117,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Array<ROOQuestion>"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 75,
+    "kind": "member",
+    "name": "outcomes",
+    "memberof": "tariff-psroo/src/index.js~PSR",
+    "static": false,
+    "longname": "tariff-psroo/src/index.js~PSR#outcomes",
+    "access": "private",
+    "description": "List of all all outcomes.",
+    "lineNumber": 124,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Map<string, ROOOutcome>"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 76,
+    "kind": "method",
+    "name": "dump",
+    "memberof": "tariff-psroo/src/index.js~PSR",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "tariff-psroo/src/index.js~PSR#dump",
+    "access": "public",
+    "description": "Dump DSL string from this representation.\n\nUsed for testing various aspects of serialisation.",
+    "lineNumber": 232,
+    "return": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": ""
+    },
+    "params": []
+  },
+  {
+    "__docId__": 77,
+    "kind": "method",
+    "name": "iterate",
+    "memberof": "tariff-psroo/src/index.js~PSR",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "tariff-psroo/src/index.js~PSR#iterate",
+    "access": "public",
+    "description": "Once you have some answers to questions, iterate with those answers to progress\nquestionnaire.",
+    "lineNumber": 245,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Map<string, boolean>"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "answers",
+        "description": "mapping of question code to answers. It should be true for answered yes, no for answered no and not present or undefined for unanswered."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "ROOOutcome"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 78,
+    "kind": "method",
+    "name": "parse",
+    "memberof": "tariff-psroo/src/index.js~PSR",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "tariff-psroo/src/index.js~PSR.parse",
+    "access": "public",
+    "description": "Constructs a PSR object.\n\nUse this instead of using PSR object directly. It will maintain backward compatible interface with optional parameters.",
+    "lineNumber": 299,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "dslText",
+        "description": "ROO DSL text"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Array<ROO>"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "[]",
+        "defaultRaw": [],
+        "name": "rooTemplate",
+        "description": "ROO questionnaire"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "{}",
+        "defaultRaw": {},
+        "name": "templateVariables",
+        "description": "Template variables."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "PSR"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 79,
+    "kind": "file",
+    "name": "tariff-psroo/src/template.js",
+    "content": "/**\n * @file Helper function\n * \n * @author Nahid Akbar\n * @year 2015\n * @copyright National ICT Australia (NICTA). All rights reserved.\n */\n\n\"use strict\";\n\nconst uglifyHS = require('pretty-print-hscode');\n\n/**\n * Lightweight template system.\n * \n * Added for the purpose of being able to automatically produce RoO questions with some dynamic content.\n * \n * Variables supported are: 'subheading', 'heading', 'chapter', 'hscode' and custom.\n * \n * Custom being anything specified in vars.\n * \n * @param {string} str target string. e.g. '{{hscode}}'\n * @param {string} vars template variables\n * @return {string}\n * \n * @example\n * template('{{subheading}}', {hscode: '0101010101'})\n * // will produce 'subheading 0101.01'\n * \n */\nfunction template(str, vars)\n{\n  let candidates = str.match(/\\{\\{[^}]+\\}\\}/g);\n  if (candidates)\n  {\n    candidates.forEach(candidate =>\n    {\n      let variable = candidate.substr(2, candidate.length - 4);\n      let value = false;\n      switch (variable)\n      {\n      case 'subheading':\n        if (vars.hscode)\n        {\n          value = uglifyHS(vars.hscode.replace(/[^0-9]/g, '')\n              .substr(0, 6), true)\n            .toLowerCase();\n        }\n        break;\n      case 'heading':\n        if (vars.hscode)\n        {\n          value = uglifyHS(vars.hscode.replace(/[^0-9]/g, '')\n              .substr(0, 4), true)\n            .toLowerCase();\n        }\n        break;\n      case 'chapter':\n        if (vars.hscode)\n        {\n          value = uglifyHS(vars.hscode.replace(/[^0-9]/g, '')\n              .substr(0, 2), true)\n            .toLowerCase();\n        }\n        break;\n      case 'hscode':\n        if (vars.hscode)\n        {\n          value = uglifyHS(vars.hscode.replace(/[^0-9]/g, ''), true)\n            .toLowerCase();\n        }\n        break;\n      default:\n        if (typeof vars[variable] === 'string')\n        {\n          value = vars[variable];\n        }\n        break;\n      }\n      if (value)\n      {\n        while (str.indexOf(candidate) !== -1)\n        {\n          str = str.replace(candidate, value);\n        }\n      }\n      else\n      {\n        console.error(`Variable ${variable} could not be set.`, str, vars);\n      }\n    });\n  }\n  return str;\n}\n\nmodule.exports = template;\n",
+    "static": true,
+    "longname": "/home/travis/build/AusFTAs/tariff-psroo/src/template.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 80,
+    "kind": "function",
+    "name": "template",
+    "memberof": "tariff-psroo/src/template.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "tariff-psroo/src/template.js~template",
+    "access": "public",
+    "export": true,
+    "importPath": "tariff-psroo/tariff-psroo/src/template.js",
+    "importStyle": "template",
+    "description": "Lightweight template system.\n\nAdded for the purpose of being able to automatically produce RoO questions with some dynamic content.\n\nVariables supported are: 'subheading', 'heading', 'chapter', 'hscode' and custom.\n\nCustom being anything specified in vars.",
+    "examples": [
+      "template('{{subheading}}', {hscode: '0101010101'})\n// will produce 'subheading 0101.01'"
+    ],
+    "lineNumber": 31,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "str",
+        "description": "target string. e.g. '{{hscode}}'"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "vars",
+        "description": "template variables"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "kind": "index",
+    "content": "# Tariffs PSR\n\n[![SCM](https://ausftas.github.io/tariff-psroo/coverage/public.svg)](https://github.com/ausftas/tariff-psroo)\n[![Build Status](https://travis-ci.org/ausftas/tariff-psroo.svg?branch=master)](https://travis-ci.org/ausftas/tariff-psroo)\n[![Documentation](https://ausftas.github.io/tariff-psroo/badge.svg)](https://ausftas.github.io/tariff-psroo/)\n[![Coverage](https://ausftas.github.io/tariff-psroo/coverage/lines.svg)](https://ausftas.github.io/tariff-psroo/coverage/)\n[![Coverage](https://ausftas.github.io/tariff-psroo/coverage/functions.svg)](https://ausftas.github.io/tariff-psroo/coverage/)\n[![Coverage](https://ausftas.github.io/tariff-psroo/coverage/branches.svg)](https://ausftas.github.io/tariff-psroo/coverage/)\n[![Coverage](https://ausftas.github.io/tariff-psroo/coverage/statements.svg)](https://ausftas.github.io/tariff-psroo/coverage/)\n\n## TL;DR\n\nA utility library for formalising and working with product specific rules of\norigin. To use:\n\n    const PSR = require('tariff-psroo');\n    const psr = PSR.parse('...', agreement.rulesOfOrigin, { hscode: '0101a01' });\n    console.log(formula.official);\n    console.log(formula.categories);\n    console.log(formula.dump());\n    console.log(formula.friendly(category));\n    console.log(formula.evaluate(...));\n    console.log(formula.iterate(...));\n\n## What\n\nThis is an example JavaScript library for working with product specific rules\nof origin of trade products. This is used in examples in combination with\nthe DFAT Free Trade Agreement Portal Data.\n\nThis grammar and example module solves the problem of boolean algebra\nrepresentation and\nevaluation of product specific rules of origin by machine in a consistent manner.\nThe grammar is intended to be context-free and described in later section.\n\n## Who\n\nThis is intended for engineers who want to duplicate the FTA Portal RoO\nfunctionality.\n\n## Why\n\nIn international trade agreements, countries set up special\nproduct specific rules (PSRs) to determine whether certain products can be traded\nunder said agreement. For example, certain products could be imported\nfrom one country, get combined or processed etc, and then\nexported to another country. PSR governs specifics of the rules and restrictions\nto determine if a product can be considered to be originating\nfrom a country.\n\nThese rules can be quite complex. Sometimes some rules can apply to all products.\nSometimes, multiple rules need to apply at the same time in complex boolean\nrelationships. This are mostly expressed in natural language.\n\nThis begs the question as to how to represent and reason about this\ndata by machine. This grammar was designed to solve that problem.\n\nIn terms of applicability, existence and conformance is more important\nthan specifics of the representation.\n\n## When\n\nThis particular example implementation will facilitate javascript and\nNodejs users. This is developed to support the examples and use cases\nwe had to implement to support our services.\n\nPractitioners using other technologies and platforms are encouraged to\ntreat this as one example implementation and develop their own implementations\nas necessary.\n\n## License\n\nThe MIT License (MIT)\n\nCopyright (c) 2015-2016\nNational ICT Australia\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is furnished\nto do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\n## How to Use\n\n### npm\n\n    npm install tariff-formula\n\n### html\n\nBrowserified code is checked into the repository as\n[PSR.js](https://github.com/AusFTAs/tariff-psroo/blob/master/lib/PSR.js)\n\n## Grammar\n\n### Alphabet\n\nUse ASCII characters.\n\n### Tokens\n\n  - [A-Z0-9_]+ is a CODE\n  - ['][^']+['] is a TEXT\n  - \",\"\n  - \"-\"\n  - \"silent\"\n  - \"parameter\"\n  - \"text\"\n  - \"except\"\n  - \"condition\"\n  - \"label\"\n  - \"details\"\n  - \"material\"\n  - \"extra\"\n  - \"(\"\n  - \")\"\n  - \"and\"\n  - \"or\"\n\n### Rules\n\n    e\n        : '(' e ')'\n        | e 'and' e\n        | e 'or' e\n        | 'silent' e\n        | CODE\n        | e 'parameter' TEXT\n        | e 'text' TEXT\n        | e 'condition' TEXT\n        | e 'label' TEXT\n        | e 'except' exc\n        | e 'details' TEXT\n\n    exc\n        : exc ',' exc\n        | CODE '-' CODE\n        | CODE\n        | exc material TEXT\n        | exc extra TEXT\n\n\n### Start\n\ne\n\n### Notes\n\nAll whitespace characters between terminals are ignored.\n\nJison is used for implementation. See src/grammar.jison for\nmore details.\n\nPSR logic is simulated with boolean algebra.\n\n'silent' fields are for incorporating implicit logic. e.g. hidden de minimis\nrules.\n\n\n'text' is for custom text representation that does not follow standard pattern.\n\n'except' is for documenting a list of exceptions the code does not apply for\n\n'condition' for documenting conditions\n\n\n### Examples\n\n  - WO\n  - CC or silent CTH and RVC parameter '50'\n  - WO except 01\n  - WO except 01-02\n  - WO except 01 material 'mammals' - 02, 03 extra 'alive only' \n\n## Modification\n\n### Dependencies\n\n    sudo npm install -g babel-cli\n    sudo npm install -g browserify\n    sudo npm install -g jison\n    sudo npm install -g nodemon\n\n\n### Sources\n\nIn src folder.\n\nRun\n\n    npm run grammar\n\nto compile jison grammar file into js. I.e. grammar.js\n\n\nRun\n\n    npm run comp -- -w\n\n to automatically compile files in src folder into es6 commonjs\n modules in root folder. I.e. index.js and test.js\n\nRun\n\n    npm run prepublishOnly\n\nto prepare commonjs files for browser. I.e. lib/PSR.js\n\n",
+    "longname": "/home/travis/build/AusFTAs/tariff-psroo/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"tariff-psroo\",\n  \"version\": \"0.1.9\",\n  \"description\": \"Library for representing and reasoning about product specific rules of origin.\",\n  \"main\": \"lib/index.js\",\n  \"directories\": {},\n  \"scripts\": {\n    \"test\": \"jbn test\",\n    \"prepublishOnly\": \"jbn comp -b PSR\",\n    \"grammar\": \"jison src/grammar.jison -o node_grammar.js -m commonjs && grep -v token_stack node_grammar.js | grep -v source > src/grammar.js\",\n    \"init\": \"jbn init -i babel\",\n    \"docs\": \"jbn docs\",\n    \"form\": \"jbn form\",\n    \"lint\": \"jbn lint\",\n    \"comp\": \"jbn comp\"\n  },\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git@github.com:AusFTAs/tariff-psroo.git\"\n  },\n  \"keywords\": [\n    \"tariff\",\n    \"product\",\n    \"specific\",\n    \"rules\",\n    \"origin\",\n    \"psr\",\n    \"roo\",\n    \"free\",\n    \"trade\",\n    \"agreements\",\n    \"grammar\"\n  ],\n  \"devDependencies\": {\n    \"jison\": \"latest\",\n    \"jbn\": \"latest\"\n  },\n  \"author\": \"Nahid Akbar <mail@nahidakbar.net> (http://nahidakbar.net/)\",\n  \"license\": \"MIT\",\n  \"dependencies\": {\n    \"pretty-print-hscode\": \"0.0.1\"\n  }\n}\n",
+    "longname": "/home/travis/build/AusFTAs/tariff-psroo/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]
