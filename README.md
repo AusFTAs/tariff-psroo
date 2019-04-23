@@ -15,12 +15,12 @@ origin. To use:
 
     const PSR = require('tariff-psroo');
     const psr = PSR.parse('...', agreement.rulesOfOrigin, { hscode: '0101a01' });
-    console.log(formula.official);
-    console.log(formula.categories);
-    console.log(formula.dump());
-    console.log(formula.friendly(category));
-    console.log(formula.evaluate(...));
-    console.log(formula.iterate(...));
+    console.log(psr.official);
+    console.log(psr.categories);
+    console.log(psr.dump());
+    console.log(psr.friendly(category));
+    console.log(psr.evaluate(...));
+    console.log(psr.iterate(...));
 
 ## What
 
@@ -97,7 +97,7 @@ SOFTWARE.
 
 ### npm
 
-    npm install tariff-formula
+    npm install tariff-psroo
 
 ### html
 
